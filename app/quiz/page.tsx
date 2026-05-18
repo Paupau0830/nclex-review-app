@@ -306,6 +306,7 @@ export default function QuizPage() {
 
       <div className="p-4 max-w-xl mx-auto">
         <QuestionCard
+          key={currentIndex}
           questionData={dailyQuestions[currentIndex]}
           onNext={nextQuestion}
           onAnswer={handleAnswer}
