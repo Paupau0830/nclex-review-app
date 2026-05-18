@@ -277,5 +277,73 @@ export const questions = [
     ],
     answer: [2],
     rationale: "Red Man Syndrome is a rate-dependent infusion reaction caused by the rapid, non-immune release of histamine, resulting in flushing, pruritus, and hypotension. It is prevented by infusing vancomycin slowly over a minimum of 60 minutes (or up to 2 hours for higher doses like 1.5–2g). Rapid IV pushes are dangerous and contraindicated for vancomycin. Antihistamines, not acetaminophen, help treat the reaction if it occurs, but slow infusion is the primary preventative mechanism."
+  },
+  {
+    id: 22,
+    type: "mcq",
+    question: "A client with advanced heart failure is admitted to the medical-surgical unit. The client's spouse presents a copy of the client's advance directive, which states the client does not want mechanical ventilation. The client is currently alert, oriented, and experiencing acute respiratory distress. The client states, 'I changed my mind, please do whatever it takes to help me breathe.' Which action should the nurse take first?",
+    options: [
+      "Defer to the spouse's copy of the advance directive since it is a legal document.",
+      "Notify the healthcare provider immediately to obtain an order for intubation based on the client's verbal statement.",
+      "Inform the client that advance directives cannot be altered verbally once legally executed.",
+      "Request an immediate consultation with the hospital ethics committee to resolve the conflict."
+    ],
+    answer: [1],
+    rationale: "According to the NCSBN Test Plan for Management of Care and foundational nursing legal concepts outlined in Saunders Comprehensive Review, a competent client retains the right to autonomously make, change, or revoke decisions regarding their medical care at any time, including verbally overriding a previously executed advance directive. Because the client is currently alert and oriented, their explicit verbal consent takes precedence over the written document and the spouse's input. The nurse must immediately advocate for the client's current wishes by notifying the provider to secure the necessary interventions for respiratory support."
+  },
+  {
+    id: 23,
+    type: "mcq",
+    question: "The Registered Nurse (RN) is planning care for a group of clients on a telemetry unit. Which task is most appropriate for the RN to delegate to an experienced Licensed Practical Nurse/Vocational Nurse (LPN/VN)?",
+    options: [
+      "Administering an initial dose of intravenous metoprolol to a client with new-onset atrial fibrillation.",
+      "Completing the comprehensive admission physical assessment for a client transferred from the emergency department.",
+      "Administering a scheduled subcutaneous dose of insulin glargine to a stable client with Type 2 Diabetes Mellitus.",
+      "Developing a community-resource discharge teaching plan for a client recovering from a myocardial infarction."
+    ],
+    answer: [2],
+    rationale: "In alignment with the NCSBN Delegation Guidelines and standard US nursing curricula (e.g., Ignatavicius and Lewis), the RN cannot delegate tasks involving the core steps of the nursing process that require advanced clinical judgment, such as initial clinical assessment, planning, or evaluating care. Administering an initial IV medication requires advanced monitoring for an unstable client. Developing a discharge teaching plan involves the 'Planning' and 'Implementation' phases of the nursing process, which cannot be delegated. Administering a scheduled, routine subcutaneous medication to a stable client falls squarely within the LPN/VN scope of practice."
+  },
+  {
+    id: 24,
+    type: "sata",
+    question: "A nurse is assessing a client suspected of having Cushing's syndrome. Based on the clinical criteria standard in US nursing textbooks such as Lewis's Medical-Surgical Nursing, which clinical manifestations should the nurse expect to observe? (Select all that apply)",
+    options: [
+      "Truncal obesity with thin extremities",
+      "Hyperpigmentation of the skin and mucous membranes",
+      "Purple or striae across the abdomen and thighs",
+      "Supraclavicular fat pad accumulation ('buffalo hump')",
+      "Hypotension and profound hyperkalemia"
+    ],
+    answer: [0, 2, 3],
+    rationale: "Cushing's syndrome results from a chronic excess of glucocorticoids (cortisol). Standard diagnostic criteria and clinical presentations outlined in US nursing textbooks detail that excess cortisol causes altered fat distribution—leading to truncal obesity, a 'buffalo hump,' and a round 'moon face'—accompanied by muscle wasting that results in thin extremities. Cortisol excess also impairs collagen production, making the skin fragile and leading to distinct purple/red abdominal striae and easy bruising. Hyperpigmentation is classic for primary adrenocortical insufficiency (Addison's disease) due to elevated ACTH, not Cushing's syndrome. Excess cortisol has mineralocorticoid-like activity, causing sodium/water retention (hypertension) and hypokalemia, making hypotension and hyperkalemia incorrect."
+  },
+  {
+    id: 25,
+    type: "ngn_case_study",
+    question: "Review the client data below. Based on the client's current presentation, which 3 clinical interventions should the nurse anticipate executing immediately? (Select 3 choices. Scored via NGN +/- scoring rules)",
+    tabs: [
+      {
+        title: "Nurses' Notes",
+        content: "08:00 - Client is a 24-year-old female with a 3-year history of Crohn's disease, admitted with an acute exacerbation. Reports severe, cramping abdominal pain (8/10) located primarily in the right lower quadrant, accompanied by 10-12 episodes of liquid, non-bloody stool per day over the past week. Client appears fatigued, pale, and reports poor oral intake due to nausea and fear of worsening abdominal pain. Abdomen is distended; hyperactive bowel sounds noted in all quadrants. Marked tenderness to palpation in the right lower quadrant without rebound tenderness."
+      },
+      {
+        title: "Vital Signs",
+        content: "08:00\n- Temperature: 101.2°F (38.4°C)\n- Heart Rate: 112 bpm (sinus tachycardia)\n- Respiratory Rate: 20/min\n- Blood Pressure: 94/56 mmHg\n- Oxygen Saturation: 97% on room air"
+      },
+      {
+        title: "Laboratory Results",
+        content: "08:15\n- White Blood Cell (WBC) Count: 14,500/mm³ (Normal: 5,000-10,000/mm³)\n- Hemoglobin: 10.2 g/dL (Normal: 12.0-16.0 g/dL)\n- Potassium: 3.1 mEq/L (Normal: 3.5-5.0 mEq/L)\n- Erythrocyte Sedimentation Rate (ESR): 42 mm/hr (Normal: <20 mm/hr)"
+      }
+    ],
+    options: [
+      "Initiate an intravenous infusion of 0.9% Normal Saline with 20 mEq/L Potassium Chloride at 125 mL/hr.",
+      "Administer a high-fiber, bulk-forming oral laxative to regulate bowel movements.",
+      "Maintain strict Nothing by Mouth (NPO) status for bowel rest.",
+      "Administer prescribed intravenous methylprednisolone.",
+      "Prepare the client for an emergency surgical total colectomy."
+    ],
+    answer: [0, 2, 3],
+    rationale: "Based on clinical standards from Ignatavicius Medical-Surgical Nursing, the client is experiencing a severe acute exacerbation of Crohn's disease characterized by frequent diarrhea, local inflammation (elevated WBC and ESR), fever, and significant fluid/electrolyte depletion (tachycardia, hypotension, and a low potassium level of 3.1 mEq/L). The top priorities are managing dehydration/hypokalemia, achieving bowel rest, and reducing acute inflammation. 1) Fluid resuscitation with potassium replacement directly addresses the hypotension and hypokalemia. 2) Strict NPO status promotes bowel rest, which reduces mechanical irritation and cramping. 3) IV Corticosteroids (methylprednisolone) are standard to suppress the systemic inflammatory response. High-fiber laxatives are strictly contraindicated as they will exacerbate cramping, diarrhea, and risk bowel perforation. Emergency total colectomy is a treatment for toxic megacolon or severe ulcerative colitis; Crohn's disease management relies on conservative medical interventions first because surgery is not curative."
   }
 ];
