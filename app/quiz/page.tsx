@@ -11,7 +11,7 @@ export default function QuizPage() {
   const [dailyQuestions, setDailyQuestions] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(60 * 60);
+  const [timeLeft, setTimeLeft] = useState(30 * 60);
 
   // ✅ Theme state
   const [theme, setTheme] = useState<Theme>("system");
@@ -76,9 +76,11 @@ export default function QuizPage() {
 
   // ================= EXAM LOGIC =================
 
+  const TOTAL_QUESTIONS = 25;
+
   const generateExam = () => {
     const shuffled = [...questions].sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, 85);
+    const selected = shuffled.slice(0, TOTAL_QUESTIONS);
 
     setDailyQuestions(selected);
     setCurrentIndex(0);
@@ -165,7 +167,7 @@ export default function QuizPage() {
       <div className="sticky top-0 bg-white dark:bg-gray-900 shadow-sm p-4 z-10">
         <div className="flex justify-between items-center text-sm text-gray-700 dark:text-gray-300">
           <span>
-            Q {currentIndex + 1} / 85
+            Q {currentIndex + 1} / {dailyQuestions.length}
           </span>
 
           <div className="flex items-center gap-3">
@@ -189,7 +191,7 @@ export default function QuizPage() {
           <div
             className="bg-blue-500 h-2 rounded"
             style={{
-              width: `${(currentIndex / 85) * 100}%`,
+              width: `${(currentIndex / dailyQuestions.length) * 100}%`,
             }}
           />
         </div>
