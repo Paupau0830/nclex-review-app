@@ -152,7 +152,7 @@ export default function QuizPage() {
             onClick={resetExam}
             className="w-full mt-6 bg-blue-600 text-white py-3 rounded-xl font-semibold"
           >
-            Retake Exam
+            Retake the Exam
           </button>
         </div>
       </div>
