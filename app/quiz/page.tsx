@@ -9,11 +9,46 @@ type Theme = "light" | "dark" | "system";
 export default function QuizPage() {
   // ================= CONSTANTS =================
   const TOTAL_QUESTIONS = 43;
-  const EXAM_TIME = 60 * 60;
+  const EXAM_TIME = 1 * 20;
 
   // ================= ATTEMPTS =================
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [attempts, setAttempts] = useState<any[]>([]);
+
+  const totalAttempts = attempts.length;
+
+  const bestScore = totalAttempts
+    ? Math.max(...attempts.map((a) => a.score))
+    : 0;
+
+  const averageScore = totalAttempts
+    ? Math.round(
+        attempts.reduce((sum, a) => sum + a.score, 0) / totalAttempts
+      )
+    : 0;
+
+  const bestTime = totalAttempts
+    ? Math.min(...attempts.map((a) => a.duration))
+    : 0;
+
+  const averageTime = totalAttempts
+    ? Math.floor(
+        attempts.reduce((sum, a) => sum + a.duration, 0) /
+          totalAttempts
+      )
+    : 0;
+
+    const passRate = totalAttempts
+    ? Math.round(
+        (attempts.filter(a => a.score >= 0.75 * a.total).length / totalAttempts) * 100
+      )
+    : 0;
+
+    const formatTime = (sec: number) => {
+    const m = Math.floor(sec / 60);
+    const s = sec % 60;
+    return `${m}m ${s}s`; // ✅ already supports seconds
+  };
 
   useEffect(() => {
     const saved = JSON.parse(localStorage.getItem("attempts") || "[]");
@@ -26,6 +61,7 @@ export default function QuizPage() {
     score,
     total: dailyQuestions.length,
     duration,
+    timedOut: timeLeft === 0, // ✅ ADD THIS
     date: new Date().toISOString(),
   };
 
@@ -34,7 +70,7 @@ export default function QuizPage() {
     localStorage.setItem("attempts", JSON.stringify(updated));
     return updated;
   });
- };
+  };
 
 
   // ================= STATE =================
@@ -110,6 +146,10 @@ export default function QuizPage() {
     localStorage.setItem("progress", "0");
     localStorage.setItem("score", "0");
   };
+
+    const bestPercent = totalAttempts
+    ? Math.round((bestScore / dailyQuestions.length) * 100)
+    : 0;
 
   useEffect(() => {
     const saved = localStorage.getItem("dailyQuestions");
@@ -210,27 +250,54 @@ export default function QuizPage() {
             Retake Exam
           </button>
 
+          {/* ANALYTICS */}
+          {totalAttempts > 0 && (
+            <div className="mt-6 text-left">
+              <h2 className="font-semibold mb-2 text-gray-800 dark:text-gray-200">
+                Analytics
+              </h2>
+
+              <div className="text-sm space-y-1">
+                <p>Attempts: {totalAttempts}</p>
+                <p>Best Score: {bestScore} / {dailyQuestions.length}</p>
+                <p>Average Score: {averageScore} / {dailyQuestions.length}</p>
+                <p>Fastest Time: {formatTime(bestTime)}</p>
+                <p>Average Time: {formatTime(averageTime)}</p>
+                <p>Best percentage: {bestPercent}%</p>
+                <p>Pass rate: {passRate}%</p>
+              </div>
+            </div>
+          )}
+
           {/* HISTORY */}
           <div className="mt-6 text-left">
             <h2 className="font-semibold mb-2 text-gray-800 dark:text-gray-200">
               History
             </h2>
 
-            {attempts.map((a, i) => (
-              <div key={i} className="text-sm mb-2">
-                <p>
-                  {a.score}/{a.total} • {Math.floor(a.duration / 60)} min
-                </p>
-                <p className="text-xs opacity-70">
-                  {new Date(a.date).toLocaleString()}
-                </p>
-              </div>
-            ))}
+            {[...attempts].reverse().map((a) => (
+            <div key={a.date} className="text-sm mb-2">
+              <p>
+                {a.score}/{a.total} • {formatTime(a.duration)}{" "}
+                <span
+                  className={`ml-2 text-xs font-semibold ${
+                    a.timedOut ? "text-red-500" : "text-green-500"
+                  }`}
+                >
+                  {a.timedOut ? "Timed Out" : "Completed"}
+                </span>
+              </p>
+
+              <p className="text-xs opacity-70">
+                {new Date(a.date).toLocaleString()}
+              </p>
+            </div>
+          ))}
           </div>
           {attempts.length > 0 && (
             <button
               onClick={clearHistory}
-              className="mt-3 w-full text-sm bg-gray-700 text-white py-2 rounded"
+              className="w-full mt-6 bg-blue-600 text-white py-3 rounded-xl font-semibold"
             >
               Clear History
             </button>
