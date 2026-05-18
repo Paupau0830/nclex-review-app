@@ -9,7 +9,7 @@ type Theme = "light" | "dark" | "system";
 export default function QuizPage() {
   // ================= CONSTANTS =================
   const TOTAL_QUESTIONS = 43;
-  const EXAM_TIME = 30 * 60;
+  const EXAM_TIME = 60 * 60;
 
   // ================= STATE =================
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
