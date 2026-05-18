@@ -11,6 +11,32 @@ export default function QuizPage() {
   const TOTAL_QUESTIONS = 43;
   const EXAM_TIME = 60 * 60;
 
+  // ================= ATTEMPTS =================
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [attempts, setAttempts] = useState<any[]>([]);
+
+  useEffect(() => {
+    const saved = JSON.parse(localStorage.getItem("attempts") || "[]");
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setAttempts(saved);
+  }, []);
+
+  const saveAttempt = (duration: number) => {
+  const attempt = {
+    score,
+    total: dailyQuestions.length,
+    duration,
+    date: new Date().toISOString(),
+  };
+
+  setAttempts((prev) => {
+    const updated = [...prev, attempt];
+    localStorage.setItem("attempts", JSON.stringify(updated));
+    return updated;
+  });
+ };
+
+
   // ================= STATE =================
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [dailyQuestions, setDailyQuestions] = useState<any[]>([]);
@@ -18,8 +44,12 @@ export default function QuizPage() {
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(EXAM_TIME);
   const [isPaused, setIsPaused] = useState(false);
+  const [hasSavedAttempt, setHasSavedAttempt] = useState(false);
 
   const [theme, setTheme] = useState<Theme>("system");
+
+  // Track actual time spent
+  const [startTime, setStartTime] = useState<number | null>(null);
 
   // ================= THEME =================
   useEffect(() => {
@@ -73,6 +103,8 @@ export default function QuizPage() {
     setScore(0);
     setTimeLeft(EXAM_TIME);
     setIsPaused(false);
+    setStartTime(Date.now());
+    setHasSavedAttempt(false);
 
     localStorage.setItem("dailyQuestions", JSON.stringify(selected));
     localStorage.setItem("progress", "0");
@@ -101,7 +133,7 @@ export default function QuizPage() {
     localStorage.setItem("score", score.toString());
   }, [currentIndex, score]);
 
-  // ✅ Timer with pause support
+  // ✅ Timer
   useEffect(() => {
     if (isPaused) return;
 
@@ -118,7 +150,7 @@ export default function QuizPage() {
     if (correct) setScore((prev) => prev + 1);
   };
 
-  // ✅ Reset / Retake
+  // ✅ Reset
   const resetExam = () => {
     const confirmReset = confirm("Reset exam?");
     if (!confirmReset) return;
@@ -127,10 +159,33 @@ export default function QuizPage() {
     generateExam();
   };
 
-  // ✅ Pause toggle
+  // ✅ Pause
   const togglePause = () => {
     setIsPaused((prev) => !prev);
   };
+
+  const clearHistory = () => {
+  const confirmClear = confirm("Clear all history?");
+  if (!confirmClear) return;
+
+  localStorage.removeItem("attempts");
+  setAttempts([]);
+  };
+
+  // ================= FINISH =================
+  useEffect(() => {
+  const isFinished =
+    currentIndex >= dailyQuestions.length || timeLeft === 0;
+
+  if (!isFinished || !startTime || hasSavedAttempt) return;
+
+  const duration = Math.floor((Date.now() - startTime) / 1000);
+
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  saveAttempt(duration);
+  setHasSavedAttempt(true);
+// eslint-disable-next-line react-hooks/exhaustive-deps
+}, [currentIndex, timeLeft, hasSavedAttempt, startTime, dailyQuestions.length]);
 
   // ================= UI =================
   if (dailyQuestions.length === 0) return <p>Loading...</p>;
@@ -139,6 +194,7 @@ export default function QuizPage() {
     return (
       <div className="min-h-screen flex items-center justify-center px-4 bg-gray-100 dark:bg-gray-950">
         <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl shadow-md w-full max-w-md text-center">
+
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
             Exam Finished
           </h1>
@@ -153,6 +209,32 @@ export default function QuizPage() {
           >
             Retake Exam
           </button>
+
+          {/* HISTORY */}
+          <div className="mt-6 text-left">
+            <h2 className="font-semibold mb-2 text-gray-800 dark:text-gray-200">
+              History
+            </h2>
+
+            {attempts.map((a, i) => (
+              <div key={i} className="text-sm mb-2">
+                <p>
+                  {a.score}/{a.total} • {Math.floor(a.duration / 60)} min
+                </p>
+                <p className="text-xs opacity-70">
+                  {new Date(a.date).toLocaleString()}
+                </p>
+              </div>
+            ))}
+          </div>
+          {attempts.length > 0 && (
+            <button
+              onClick={clearHistory}
+              className="mt-3 w-full text-sm bg-gray-700 text-white py-2 rounded"
+            >
+              Clear History
+            </button>
+          )}
         </div>
       </div>
     );
@@ -168,13 +250,11 @@ export default function QuizPage() {
           </span>
 
           <div className="flex items-center gap-3">
-            {/* Timer */}
             <span className="font-semibold">
               {Math.floor(timeLeft / 60)}:
               {(timeLeft % 60).toString().padStart(2, "0")}
             </span>
 
-            {/* Pause */}
             <button
               onClick={togglePause}
               className="text-xs px-2 py-1 border rounded"
@@ -182,7 +262,6 @@ export default function QuizPage() {
               {isPaused ? "▶️" : "⏸"}
             </button>
 
-            {/* Reset */}
             <button
               onClick={resetExam}
               className="text-xs px-2 py-1 border rounded text-red-500 border-red-400"
@@ -190,7 +269,6 @@ export default function QuizPage() {
               Reset
             </button>
 
-            {/* Theme */}
             <button
               onClick={toggleTheme}
               className="text-xs px-2 py-1 border rounded"
@@ -200,7 +278,6 @@ export default function QuizPage() {
           </div>
         </div>
 
-        {/* Progress */}
         <div className="w-full bg-gray-200 dark:bg-gray-800 h-2 rounded mt-2">
           <div
             className="bg-blue-500 h-2 rounded"
@@ -211,7 +288,6 @@ export default function QuizPage() {
         </div>
       </div>
 
-      {/* Pause Overlay */}
       {isPaused && (
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50">
           <div className="bg-white dark:bg-gray-900 p-6 rounded-xl text-center">
@@ -228,7 +304,6 @@ export default function QuizPage() {
         </div>
       )}
 
-      {/* Content */}
       <div className="p-4 max-w-xl mx-auto">
         <QuestionCard
           questionData={dailyQuestions[currentIndex]}
