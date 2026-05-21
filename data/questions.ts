@@ -580,5 +580,1277 @@ export const questions = [
     ],
     answer: [1],
     rationale: "When a pacemaker delivers an electrical discharge (visible as a sharp pacing spike on the ECG) but the adjacent myocardial tissue fails to depolarize, the condition is classified as a 'failure to capture.' On a telemetry strip, this is identified by a pacemaker spike that is not followed by its corresponding QRS complex (or P wave if thin atrial pacing wires are driven). This requires rapid clinical intervention because the heart fails to contract effectively despite receiving the device's electrical stimulus. Failure to sense (Option A) occurs when the pacemaker fails to recognize intrinsic cardiac depolarization and fires inappropriately. Failure to pace (Option C) indicates that the device fails to generate an electrical impulse entirely, resulting in missing spikes on the ECG."
+  },
+  {
+    id: 44,
+    type: "mcq",
+    question: "abortion: Expulsion from the uterus of the products of conception before the fetus is viable (less than ____ weeks age of gestation).",
+    options: ["12 weeks", "20 weeks", "24 weeks", "28 weeks"],
+    answer: [1],
+    rationale: "Fetal viability is typically defined around 20 weeks of gestation, before which expulsion of the products of conception is classified as an abortion."
+  },
+  {
+    id: 45,
+    type: "mcq",
+    question: "abortion: The ____ stoppage of a natural or a pathological process.",
+    options: ["Spontaneous", "Delayed", "Premature", "Therapeutic"],
+    answer: [2],
+    rationale: "Abortion broadly represents the premature arrest or stoppage of a natural or pathological progression."
+  },
+  {
+    id: 46,
+    type: "mcq",
+    question: "abruptio placentae: Premature ____ of a normally positioned placenta in a pregnancy.",
+    options: ["Separation", "Implantation", "Calcification", "Hypertrophy"],
+    answer: [0],
+    rationale: "Abruptio placentae refers directly to the premature detachment or separation of a normally implanted placenta from the uterine wall before delivery."
+  },
+  {
+    id: 47,
+    type: "mcq",
+    question: "abruptio placentae: Occurs in a pregnancy of at least ____ weeks' gestation either before labor or during labor but before delivery.",
+    options: ["16 weeks", "20 weeks", "28 weeks", "36 weeks"],
+    answer: [1],
+    rationale: "This condition typically presents in a pregnancy that has reached at least 20 weeks of gestation."
+  },
+  {
+    id: 48,
+    type: "mcq",
+    question: "abuse: Misuse or particularly excessive use of a substance, service, or equipment; commonly refers to improper use of a ____ or similar substance.",
+    options: ["Device", "Drug", "Asset", "Chemical"],
+    answer: [1],
+    rationale: "Substance abuse most frequently denotes the improper, excessive, or non-medical use of a drug."
+  },
+  {
+    id: 49,
+    type: "mcq",
+    question: "accommodation: In ophthalmology: adjustment of the ____ of the eye for various distances.",
+    options: ["Cornea", "Retina", "Lens", "Pupil"],
+    answer: [2],
+    rationale: "Accommodation is the physiological process by which the ciliary muscles alter the curvature of the crystalline lens to focus clearly on near or distant objects."
+  },
+  {
+    id: 50,
+    type: "mcq",
+    question: "accommodation: In sociology: the use of compromise, arbitration, or negotiation to resolve conflicts. Also called ____.",
+    options: ["Assimilation", "Adjustment", "Acculturation", "Affiliation"],
+    answer: [1],
+    rationale: "In a sociological context, accommodation serves as an adjustment mechanism enabling individuals or groups to co-exist peacefully without resolving basic differences."
+  },
+  {
+    id: 51,
+    type: "mcq",
+    question: "Acetylcholine: A ____ that is produced in the central and parasympathetic autonomic nervous systems, crucial to arousal, learning, memory, and motor function.",
+    options: ["Hormone", "Neurotransmitter", "Enzyme", "Amino acid"],
+    answer: [1],
+    rationale: "Acetylcholine is a key chemical neurotransmitter that mediates nerve impulse transmission across junctions in both the central and parasympathetic peripheral nervous systems."
+  },
+  {
+    id: 52,
+    type: "mcq",
+    question: "acquired immunodeficiency syndrome (AIDS): A disorder of the ____ characterized by an inability to mount a successful defense against infection.",
+    options: ["Lymphatic system", "Immune system", "Endocrine system", "Circulatory system"],
+    answer: [1],
+    rationale: "AIDS is a profound, acquired impairment of the body's immune system that cripples its defensive capacity against invading pathogens."
+  },
+  {
+    id: 53,
+    type: "mcq",
+    question: "acquired immunodeficiency syndrome (AIDS): Characterized by an inability to defend against organisms that usually aren't pathogenic, known as ____ infections.",
+    options: ["Nosocomial", "Opportunistic", "Systemic", "Latent"],
+    answer: [1],
+    rationale: "Infections caused by microbes that take advantage of a weakened immune defense but normally do not cause illness in healthy individuals are termed opportunistic infections."
+  },
+  {
+    id: 54,
+    type: "mcq",
+    question: "acquired immunodeficiency syndrome (AIDS): The syndrome is caused by infection with the human immunodeficiency virus, which causes a marked depletion in the number of ____ T cells.",
+    options: ["Cytotoxic", "Suppressor", "Helper", "Memory"],
+    answer: [2],
+    rationale: "The Human Immunodeficiency Virus (HIV) selectively infects, replicates within, and systematically destroys CD4+ helper T cells, which coordinates the wider immune response."
+  },
+  {
+    id: 55,
+    type: "mcq",
+    question: "acromegaly: A syndrome that results when the ____ pituitary gland produces excess growth hormone after epiphyseal plate closure at puberty.",
+    options: ["Anterior", "Posterior", "Intermediate", "Dorsal"],
+    answer: [0],
+    rationale: "Somatotroph cells located within the anterior lobe of the pituitary gland are responsible for synthesizing and secreting growth hormone."
+  },
+  {
+    id: 56,
+    type: "mcq",
+    question: "acromegaly: Occurs when the pituitary gland produces excess ____ hormone (GH) after epiphyseal plate closure.",
+    options: ["Thyroid", "Growth", "Adrenocorticotropic", "Luteinizing"],
+    answer: [1],
+    rationale: "Acromegaly is explicitly triggered by a hypersecretion of growth hormone following the physical fusion of long bone growth plates."
+  },
+  {
+    id: 57,
+    type: "mcq",
+    question: "Active immunity: Acquired immunity caused by the production of ____, either after infection or as a result of vaccination.",
+    options: ["Antigens", "Antibodies", "Leukocytes", "Interleukins"],
+    answer: [1],
+    rationale: "Active immunity is defined by the host's own cellular machinery synthesizing specific protective antibodies following exposure to an external pathogen or immunogenic vaccine."
+  },
+  {
+    id: 58,
+    type: "mcq",
+    question: "acute lymphocytic leukemia (ALL): A form of leukemia, most commonly occurring in children, marked by large numbers of immature ____ in the blood and blood-forming tissues.",
+    options: ["Erythrocytes", "Thrombocytes", "Leukocytes", "Reticulocytes"],
+    answer: [2],
+    rationale: "Leukemia is a malignancy originating in the bone marrow characterized by the uncontrolled proliferation of abnormal, immature white blood cells (leukocytes)."
+  },
+  {
+    id: 59,
+    type: "mcq",
+    question: "acute nephritis: Acute inflammation of the ____, possibly involving the glomerulus, tubules, and interstitial tissues.",
+    options: ["Liver", "Bladder", "Kidney", "Pancreas"],
+    answer: [2],
+    rationale: "The suffix '-nephritis' explicitly denotes an inflammatory pathological state localized to the kidney."
+  },
+  {
+    id: 60,
+    type: "mcq",
+    question: "acute nephritis: Acute inflammation of the kidney, possibly involving the glomerulus, ____, and interstitial tissues.",
+    options: ["Nephrons", "Tubules", "Calyces", "Pyramids"],
+    answer: [1],
+    rationale: "The structural landscape of acute nephritis typically spans an inflammatory infiltration across the functional glomeruli, the renal tubules, and surrounding interstitial matrices."
+  },
+  {
+    id: 61,
+    type: "mcq",
+    question: "Addison's disease: Results from partial or complete loss of ____, mineralocorticoid, and androgenic function of the adrenal glands.",
+    options: ["Glucocorticoid", "Epinephrine", "Norepinephrine", "Calcifediol"],
+    answer: [0],
+    rationale: "Addison's disease causes destruction of the adrenal cortex, severely impairing its three structural layers and halting the secretion of cortisol (a glucocorticoid), aldosterone, and androgens."
+  },
+  {
+    id: 62,
+    type: "mcq",
+    question: "Addison's disease: Results from partial or complete loss of glucocorticoid, mineralocorticoid, and ____ function of the adrenal glands.",
+    options: ["Estrogenic", "Androgenic", "Progestational", "Catecholamine"],
+    answer: [1],
+    rationale: "The adrenal cortex synthesizes three main steroid streams: glucocorticoids, mineralocorticoids, and sex steroids, specifically dehydroepiandrosterone (androgenic hormones)."
+  },
+  {
+    id: 63,
+    type: "mcq",
+    question: "Addisonian crisis: An emergency situation occurring with adrenal ____ and exposure to trauma, surgery, or other severe physiologic stress.",
+    options: ["Hyperfunction", "Hypofunction", "Atrophy", "Hyperplasia"],
+    answer: [1],
+    rationale: "An Addisonian crisis is a life-threatening acute medical status precipitated when a baseline chronic hypofunction of the adrenal cortex cannot handle critical physiological stressors."
+  },
+  {
+    id: 64,
+    type: "mcq",
+    question: "Addisonian crisis: An emergency situation that exhausts the body's stores of ____.",
+    options: ["Catecholamines", "Mineralocorticoids", "Glucocorticoids", "Gonadotropins"],
+    answer: [2],
+    rationale: "The primary lethal mechanism of an adrenal crisis centers on the absolute exhaustion and deficiency of systemic glucocorticoids (cortisol) required to maintain vascular tone and metabolic stability."
+  },
+  {
+    id: 65,
+    type: "mcq",
+    question: "adenocarcinoma: A cancer of an epithelium that originates in ____ tissue.",
+    options: ["Squamous", "Connective", "Glandular", "Muscular"],
+    answer: [2],
+    rationale: "An adenocarcinoma is a malignant epithelial neoplasm specifically derived from glandular structures or exhibiting prominent glandular secretion profiles."
+  },
+  {
+    id: 66,
+    type: "mcq",
+    question: "adrenergic: Activated or transmitted by epinephrine, ____, or a similar substance.",
+    options: ["Acetylcholine", "Norepinephrine", "Serotonin", "Dopamine"],
+    answer: [1],
+    rationale: "Adrenergic pathways and nerve fibers primarily execute their chemical signaling via the sympathetic neurotransmitters epinephrine and norepinephrine."
+  },
+  {
+    id: 67,
+    type: "mcq",
+    question: "adrenergic: Also called a ____, a drug that stimulates alpha or beta receptors.",
+    options: ["Parasympatholytic", "Sympathomimetic", "Parasympathomimetic", "Sympatholytic"],
+    answer: [1],
+    rationale: "Agents that stimulate adrenergic alpha and beta receptors effectively mimic physiological sympathetic nervous actions, thus earning the designation 'sympathomimetic'."
+  },
+  {
+    id: 68,
+    type: "mcq",
+    question: "adrenergic blocker: A pharmaceutical substance that acts to inhibit the action of ____ at the adrenergic receptors.",
+    options: ["Endorphins", "Catecholamines", "Prostaglandins", "Glucocorticoids"],
+    answer: [1],
+    rationale: "Adrenergic blockers competitively or non-competitively occupy receptor configurations to halt the binding and physiological action of endogenously produced catecholamines."
+  },
+  {
+    id: 69,
+    type: "mcq",
+    question: "____ ____: Documented written or verbal instructions by the client about his wishes for life-sustaining medical care in the event he becomes incapacitated.",
+    options: ["Informed consent", "Advance directive", "Medical power", "Living testament"],
+    answer: [1],
+    rationale: "An advance directive is a legally binding framework dictating a person's explicit desires regarding end-of-life clinical interventions before losing decision-making capacity."
+  },
+  {
+    id: 70,
+    type: "mcq",
+    question: "agonist: In anatomy: any muscle in a state of ____ whose action is opposed by another muscle with which it’s paired.",
+    options: ["Relaxation", "Contraction", "Atrophy", "Extension"],
+    answer: [1],
+    rationale: "An anatomical agonist is a prime mover muscle actively generating tension through cellular contraction to execute a specific movement, working counter to its paired antagonist."
+  },
+  {
+    id: 71,
+    type: "mcq",
+    question: "agoraphobia: An intense, irrational fear of being in ____ spaces or of venturing out from the home or other familiar setting.",
+    options: ["Enclosed", "Open", "Elevated", "Dark"],
+    answer: [1],
+    rationale: "Agoraphobia is a clinical anxiety disorder rooted in profound fear or anxiety linked to situations like open spaces, public transit, or lines from which escape might prove challenging."
+  },
+  {
+    id: 72,
+    type: "mcq",
+    question: "agranulocytosis: Failure of the bone marrow to make enough ____ cells (neutrophils).",
+    options: ["Red blood", "White blood", "Stem", "Plasma"],
+    answer: [1],
+    rationale: "Agranulocytosis represents an acute, severe drop or complete structural failure in producing mature granulocytic white blood cells, primarily compromising neutrophils."
+  },
+  {
+    id: 73,
+    type: "mcq",
+    question: "agranulocytosis: ____ is the soft tissue inside bones that helps form blood cells.",
+    options: ["Yellow marrow", "Bone marrow", "Periosteum", "Endosteum"],
+    answer: [1],
+    rationale: "Bone marrow acts as the primary hematopoietically active tissue nestled within trabecular cavities responsible for generating red, white, and thrombocytic cell lines."
+  },
+  {
+    id: 74,
+    type: "mcq",
+    question: "akinesia: Loss of the ability to ____ voluntarily.",
+    options: ["Speak", "Swallow", "Move", "Breathe"],
+    answer: [2],
+    rationale: "Derived from Greek roots, akinesia translates literally to an absence or profound loss of intentional, voluntary physical movement."
+  },
+  {
+    id: 75,
+    type: "mcq",
+    question: "aldosterone: A steroid hormone (mineralocorticoid family) produced by the outer section of the adrenal ____ in the adrenal gland.",
+    options: ["Medulla", "Cortex", "Capsule", "Infundibulum"],
+    answer: [1],
+    rationale: "Aldosterone is manufactured specifically within the outer zona glomerulosa layer of the endocrine gland's adrenal cortex."
+  },
+  {
+    id: 76,
+    type: "mcq",
+    question: "____ test: A test designed to evaluate a client's collateral circulation in the arm before an invasive arterial procedure.",
+    options: ["Allen's", "Allis's", "Apgar", "Babinski"],
+    answer: [0],
+    rationale: "The Allen's test safely evaluates patency between the radial and ulnar arteries to ensure sufficient collateral hand perfusion before cannulating or drawing from the radial artery."
+  },
+  {
+    id: 77,
+    type: "mcq",
+    question: "alopecia: Loss of ____ from the head or body.",
+    options: ["Pigment", "Hair", "Sensation", "Weight"],
+    answer: [1],
+    rationale: "Alopecia is the formal clinical terminology designating partial or complete hair shedding or baldness across any dermally active zone."
+  },
+  {
+    id: 78,
+    type: "mcq",
+    question: "Alport syndrome or hereditary nephritis: A genetic disorder characterized by ____, end-stage kidney disease, and hearing loss.",
+    options: ["Nephrotic syndrome", "Glomerulonephritis", "Polycystic kidney", "Hydronephrosis"],
+    answer: [1],
+    rationale: "Alport syndrome arises from structural mutations in Type IV collagen architecture, directly inducing hereditary progressive glomerulonephritis linked alongside sensorineural hearing anomalies."
+  },
+  {
+    id: 79,
+    type: "mcq",
+    question: "Alzheimer’s disease: An irreversible, progressive ____ disease that slowly destroys memory and thinking skills.",
+    options: ["Neuromuscular", "Brain", "Cardiovascular", "Autoimmune"],
+    answer: [1],
+    rationale: "Alzheimer's is classified broadly as an insidious neurodegenerative brain disorder marked by pathognomonic beta-amyloid plaques and tau neurofibrillary tangles."
+  },
+  {
+    id: 80,
+    type: "mcq",
+    question: "amblyopia: Decreased ____ acuity in one eye in the absence of detectable structural or pathologic changes.",
+    options: ["Auditory", "Tactile", "Visual", "Olfactory"],
+    answer: [2],
+    rationale: "Often called 'lazy eye,' amblyopia stems from abnormal neural visual processing during childhood development, causing reduced visual sharpness despite an anatomically sound ocular globe."
+  },
+  {
+    id: 81,
+    type: "mcq",
+    question: "amenorrhea: The absence or cessation of ____.",
+    options: ["Ovulation", "Lactation", "Menstruation", "Gestation"],
+    answer: [2],
+    rationale: "Amenorrhea describes an atypical absence of monthly menstrual bleeding in individuals of reproductive age."
+  },
+  {
+    id: 82,
+    type: "mcq",
+    question: "amniocentesis: Withdrawal of a sample of ____ fluid by transabdominal puncture and needle aspiration.",
+    options: ["Peritoneal", "Amniotic", "Cerebrospinal", "Pleural"],
+    answer: [1],
+    rationale: "An amniocentesis uses guided transabdominal needle access to extract supportive amniotic fluid surrounding a developing fetus for direct cytogenetic analysis."
+  },
+  {
+    id: 83,
+    type: "mcq",
+    question: "amniotomy: Artificial ____ of the membranes.",
+    options: ["Stripping", "Rupture", "Sealing", "Insufflation"],
+    answer: [1],
+    rationale: "An amniotomy utilizes a specialized hook tool to mechanically cause an artificial rupture of the amniotic sac membranes to induce or augment active labor."
+  },
+  {
+    id: 84,
+    type: "mcq",
+    question: "analgesic: Having the ability to relieve ____.",
+    options: ["Fever", "Pain", "Inflammation", "Spasms"],
+    answer: [1],
+    rationale: "The fundamental structural definition and intent of any analgesic mechanism centers directly upon alleviating physical pain."
+  },
+  {
+    id: 85,
+    type: "mcq",
+    question: "analgesic: A medication that relieves ____.",
+    options: ["Anxiety", "Nausea", "Pain", "Congestion"],
+    answer: [2],
+    rationale: "Analgesic medications target peripheral or central pain reception paths to actively suppress painful neurological perceptions."
+  },
+  {
+    id: 86,
+    type: "mcq",
+    question: "anaphylaxis: A systemic reaction to a previously encountered ____.",
+    options: ["Antibody", "Antigen", "Pathogen", "Toxin"],
+    answer: [1],
+    rationale: "Anaphylaxis is an acute, life-threatening type-1 hypersensitivity phenomenon occurring when an individual is re-exposed to a specific sensitizing foreign antigen."
+  },
+  {
+    id: 87,
+    type: "mcq",
+    question: "anastomosis: A surgical procedure in which two blood vessels, ducts, or other tubelike structures are joined. Types include ____ and side-to-side.",
+    options: ["End-to-end", "Blind-loop", "Stricture-to-stricture", "Diverticular"],
+    answer: [0],
+    rationale: "An end-to-end configuration joins terminal opened cross-sections of two independent tubular structures to create continuous luminal flow."
+  },
+  {
+    id: 88,
+    type: "mcq",
+    question: "aneurysm: An abnormal widening or ____ of a portion of an artery due to weakness in the blood vessel wall.",
+    options: ["Narrowing", "Ballooning", "Hardening", "Rupturing"],
+    answer: [1],
+    rationale: "An aneurysm causes a visible out-pouching or ballooning structural profile where blood pressure stresses a locally degraded vascular wall segment."
+  },
+  {
+    id: 89,
+    type: "mcq",
+    question: "aneurysm: An abnormal widening or ballooning of a portion of an ____ due to weakness in the wall of the blood vessel.",
+    options: ["Vein", "Artery", "Capillary", "Venule"],
+    answer: [1],
+    rationale: "Aneurysms occur almost exclusively within the high-pressure hemodynamic arterial circuit where systemic wall shear stresses are highest."
+  },
+  {
+    id: 90,
+    type: "mcq",
+    question: "angina pectoris: Severe chest ____ characterized by sensations of spasm, constriction, and crushing weight.",
+    options: ["Tenderness", "Pain", "Numbness", "Burning"],
+    answer: [1],
+    rationale: "Angina pectoris presents clinically as transient, heavy chest pain or discomfort when cardiac metabolic workload outpaces current coronary perfusion."
+  },
+  {
+    id: 91,
+    type: "mcq",
+    question: "angina pectoris: Usually results from myocardial ____ deprivation secondary to atherosclerosis.",
+    options: ["Glucose", "Oxygen", "Calcium", "Potassium"],
+    answer: [1],
+    rationale: "The ischemic cascade driving anginal episodes stems fundamentally from cellular oxygen deprivation within matching myocardial tissue beds."
+  },
+  {
+    id: 92,
+    type: "mcq",
+    question: "angina pectoris: Caused by myocardial oxygen deprivation secondary to atherosclerosis of the ____ arteries.",
+    options: ["Pulmonary", "Carotid", "Coronary", "Renal"],
+    answer: [2],
+    rationale: "Atherosclerotic lesions narrowing the coronary arteries restrict the volume of oxygenated blood delivered directly to the heart muscle cells."
+  },
+  {
+    id: 93,
+    type: "mcq",
+    question: "ankylosing spondylitis: A form of ____ that primarily affects the spine, although other joints can become involved.",
+    options: ["Osteoporosis", "Arthritis", "Scoliosis", "Spondylolisthesis"],
+    answer: [1],
+    rationale: "Ankylosing spondylitis is a systemic, seronegative spondyloarthropathy belonging to the chronic inflammatory arthritis family."
+  },
+  {
+    id: 94,
+    type: "mcq",
+    question: "ankylosing spondylitis: It causes ____ of the spinal joints (vertebrae) that can lead to severe, chronic pain.",
+    options: ["Calcification", "Degeneration", "Inflammation", "Subluxation"],
+    answer: [2],
+    rationale: "The underlying drive of ankylosing spondylitis is severe, continuous enthesitis and joint inflammation that can ultimately result in pathological bony fusion (ankylosis)."
+  },
+  {
+    id: 95,
+    type: "mcq",
+    question: "anorexia: Loss of ____.",
+    options: ["Hair", "Sleep", "Appetite", "Memory"],
+    answer: [2],
+    rationale: "As a baseline clinical symptom, anorexia describes a generalized loss, reduction, or absence of the natural urge to eat (appetite)."
+  },
+  {
+    id: 96,
+    type: "mcq",
+    question: "anorexia nervosa: An ____ disorder, most common among adolescent girls, characterized by an aversion to food and fear of obesity.",
+    options: ["Mood", "Anxiety", "Eating", "Personality"],
+    answer: [2],
+    rationale: "Anorexia nervosa is a complex psychological eating disorder marked by extreme caloric self-restriction, distorted body image, and intense weight anxiety."
+  },
+  {
+    id: 97,
+    type: "mcq",
+    question: "anorexia nervosa: Characterized by an aversion to eating, most common among ____ girls.",
+    options: ["Toddler", "Adolescent", "Neonatal", "Geriatric"],
+    answer: [1],
+    rationale: "Epidemiological data shows that anorexia nervosa frequently manifests during the critical developmental and psychosocial transitions of adolescence."
+  },
+  {
+    id: 98,
+    type: "mcq",
+    question: "antagonist: In pharmacology: a drug that ____ the action of another drug.",
+    options: ["Enhances", "Nullifies", "Mimics", "Accelerates"],
+    answer: [1],
+    rationale: "Pharmacological antagonists attach to receptor targets without activating them, blocking endogenous ligands or other exogenous drugs from binding and nullifying their effects."
+  },
+  {
+    id: 99,
+    type: "mcq",
+    question: "anteroposterior-to-lateral: Direction referring from ____ to back and side to side.",
+    options: ["Top", "Front", "Left", "Inside"],
+    answer: [1],
+    rationale: "The prefix 'antero-' specifies an anatomical orientation starting from or relative to the front aspect of the subject."
+  },
+  {
+    id: 100,
+    type: "mcq",
+    question: "anteroposterior-to-lateral: Direction referring from front to ____ and side to side.",
+    options: ["Back", "Bottom", "Right", "Outside"],
+    answer: [0],
+    rationale: "The root '-posterior' clarifies the vector's direction toward the back aspect of the target organism or region."
+  },
+  {
+    id: 101,
+    type: "mcq",
+    question: "Anthrax: An acute disease caused by the bacterium ____ ____.",
+    options: ["Clostridium tetani", "Bacillus anthracis", "Staphylococcus aureus", "Mycobacterium tuberculosis"],
+    answer: [1],
+    rationale: "Anthrax is caused explicitly by the spore-forming, Gram-positive rod bacterium taxonomically classified as Bacillus anthracis."
+  },
+  {
+    id: 102,
+    type: "mcq",
+    question: "anticholinergic: Of or relating to blockade of the impulses of ____ or other cholinergic nerve fibers.",
+    options: ["Sympathetic", "Parasympatholytic", "Somatic", "Central"],
+    answer: [1],
+    rationale: "Anticholinergic drugs block acetylcholine receptors, primary chemical transmitters in the parasympathetic nervous system."
+  },
+  {
+    id: 103,
+    type: "mcq",
+    question: "anticipatory guidance: Information about a disorder or about the normal ____ and development expectations given before an event.",
+    options: ["Weight", "Growth", "Cognitive", "Behavioral"],
+    answer: [1],
+    rationale: "Anticipatory guidance provides parents or guardians with structural insights on expected physical growth parameters before specific childhood milestones."
+  },
+  {
+    id: 104,
+    type: "mcq",
+    question: "anticipatory guidance: Information regarding growth and ____ expectations of a specific age-group given ahead of time.",
+    options: ["Adaptation", "Development", "Regression", "Maturation"],
+    answer: [1],
+    rationale: "This clinical nursing strategy proactively educates caregivers on expected developmental stages to optimize health and environmental safety."
+  },
+  {
+    id: 105,
+    type: "mcq",
+    question: "antiembolism stockings: Elasticized stockings prescribed to enhance venous blood flow and prevent ____ resulting from pooling of blood.",
+    options: ["Arteriosclerosis", "Thromboembolism", "Lymphedema", "Thrombocytopenia"],
+    answer: [1],
+    rationale: "By applying graduated external compression, antiembolism stockings enhance deep venous return and minimize static pooling to mitigate the risk of deep vein thrombosis and subsequent thromboembolism."
+  },
+  {
+    id: 106,
+    type: "mcq",
+    question: "antisocial personality disorder: A disorder that manifests after age ____ as a pervasive disregard for and violation of the rights of others.",
+    options: ["10", "15", "18", "21"],
+    answer: [1],
+    rationale: "Diagnostic manuals dictate that a pervasive behavioral display violating societal norms and human boundaries must reliably feature historical presence from at least age 15 to fit this diagnostic category."
+  },
+  {
+    id: 107,
+    type: "mcq",
+    question: "anuria: Absence of ____ production.",
+    options: ["Bile", "Saliva", "Urine", "Sweat"],
+    answer: [2],
+    rationale: "Anuria represents a critical acute kidney failure state defined clinically as an absolute or near-absolute cessation of urine output (less than 100 mL/day)."
+  },
+  {
+    id: 108,
+    type: "mcq",
+    question: "____: A psychological and physiological state characterized by somatic, emotional, cognitive, and behavioral components, giving a displeasing feeling of fear and concern.",
+    options: ["Depression", "Anxiety", "Mania", "Psychosis"],
+    answer: [1],
+    rationale: "Anxiety presents as an unsettling state of apprehension and physiological hyper-arousal triggered by perceived, future, or poorly defined threats."
+  },
+  {
+    id: 109,
+    type: "mcq",
+    question: "aortic stenosis: An abnormal narrowing of the orifice of the ____ valve, preventing normal blood flow from the left ventricle.",
+    options: ["Mitral", "Tricuspid", "Aortic", "Pulmonary"],
+    answer: [2],
+    rationale: "Aortic stenosis restricts the aortic valve leaflet opening, which blocks forward blood ejection from the high-pressure left ventricular chamber into the systemic aorta."
+  },
+  {
+    id: 110,
+    type: "mcq",
+    question: "Apgar score: A numerical evaluation of a neonate's condition measuring heart rate, ____ effort, muscle tone, reflex responses, and skin color.",
+    options: ["Gastrointestinal", "Cardiovascular", "Respiratory", "Neurological"],
+    answer: [2],
+    rationale: "The 'R' component of the APGAR acronym evaluates neonatal respiratory effort, assessing signs ranging from an absent breath profile to a robust, vigorous newborn cry."
+  },
+  {
+    id: 111,
+    type: "mcq",
+    question: "Apgar score: Evaluates five criteria: heart rate, respiratory effort, ____ tone, reflex responses, and skin color.",
+    options: ["Vascular", "Muscle", "Tendon", "Postural"],
+    answer: [1],
+    rationale: "The 'G' and 'A' fields check grimace and activity levels, looking specifically at muscular tone and flexion resistance in newborn limbs."
+  },
+  {
+    id: 112,
+    type: "mcq",
+    question: "Apgar score: The score is usually obtained at ____ minute and five minutes after birth.",
+    options: ["One", "Two", "Three", "Zero"],
+    answer: [0],
+    rationale: "Standard clinical protocols require calculating the initial APGAR score exactly 1 minute post-delivery to judge how well the infant tolerated the birthing transition."
+  },
+  {
+    id: 113,
+    type: "mcq",
+    question: "Apgar score: Evaluated at one minute and ____ minutes after birth.",
+    options: ["Three", "Five", "Ten", "Fifteen"],
+    answer: [1],
+    rationale: "The second standard APGAR metric is calculated at the 5-minute mark to assess ongoing extrauterine adaptation and response to initial stabilizing care."
+  },
+  {
+    id: 114,
+    type: "mcq",
+    question: "aphasia: Loss or impairment of the ability to ____ through speech, written language, or signs, resulting from brain disease or trauma.",
+    options: ["Conceptualize", "Articulate", "Communicate", "Comprehend"],
+    answer: [2],
+    rationale: "Aphasia describes an acquired neurogenic deficit that compromises an individual's capacity to communicate, affecting either the expression or comprehension of language."
+  },
+  {
+    id: 115,
+    type: "mcq",
+    question: "aphthous stomatitis: A recurring disease marked by the eruption of ulcers on the mucous membranes of the ____.",
+    options: ["Stomach", "Mouth", "Intestines", "Pharynx"],
+    answer: [1],
+    rationale: "Aphthous stomatitis presents as painful, recurrent small ulcerative lesions (canker sores) limited to the non-keratinized mucosal lining of the mouth."
+  },
+  {
+    id: 116,
+    type: "mcq",
+    question: "appendicitis: Inflammation of the ____ appendix.",
+    options: ["Cecal", "Vermiform", "Ileal", "Retrocecal"],
+    answer: [1],
+    rationale: "Appendicitis describes an acute inflammatory process occurring in the narrow, blind-ended pouch known anatomically as the vermiform appendix."
+  },
+  {
+    id: 117,
+    type: "mcq",
+    question: "appendicitis: When acute, appendicitis commonly necessitates an ____ to prevent perforation and subsequent peritonitis.",
+    options: ["Appendectomy", "Laparotomy", "Colectomy", "Endoscopy"],
+    answer: [0],
+    rationale: "The standard definitive treatment for acute appendicitis is surgical removal of the structure, an appendectomy, to avert rupture and fecal contamination of the peritoneal space."
+  },
+  {
+    id: 118,
+    type: "mcq",
+    question: "apraxia: Complete or partial inability to perform purposeful ____ in the absence of sensory or motor impairment.",
+    options: ["Tasks", "Vocalizations", "Movements", "Reflexes"],
+    answer: [2],
+    rationale: "Apraxia is a neurological impairment characterized by the inability to execute purposeful, learned physical movements, despite having intact motor strength and sensory pathways."
+  },
+  {
+    id: 119,
+    type: "mcq",
+    question: "arthroscopy: A minimally invasive surgical procedure for examination and treatment of damage inside a ____.",
+    options: ["Bone", "Joint", "Muscle", "Bursa"],
+    answer: [1],
+    rationale: "The prefix 'arthro-' explicitly denotes a joint cavity space, the structural target of this direct endoscopic visualization procedure."
+  },
+  {
+    id: 120,
+    type: "mcq",
+    question: "arthroscopy: Performed using a specialized visualization instrument called an ____.",
+    options: ["Endoscope", "Arthroscope", "Laparoscope", "Otoscope"],
+    answer: [1],
+    rationale: "An arthroscope is an endoscopic camera system designed specifically to illuminate and navigate the tight anatomical interior of joint capsules."
+  },
+  {
+    id: 121,
+    type: "mcq",
+    question: "ascites: A gastroenterological term for an accumulation of fluid in the ____ cavity.",
+    options: ["Pleural", "Peritoneal", "Pericardial", "Pelvic"],
+    answer: [1],
+    rationale: "Ascites describes an abnormal collection of serous exudate or transudate within the sub-abdominal peritoneal cavity space."
+  },
+  {
+    id: 122,
+    type: "mcq",
+    question: "ascites: The medical condition is also archaically known as abdominal ____.",
+    options: ["Edema", "Dropsy", "Hernia", "Distention"],
+    answer: [1],
+    rationale: "In older medical literature, 'dropsy' was the broad clinical term applied to visible fluid accumulation and swelling within soft tissues or body cavities."
+  },
+  {
+    id: 123,
+    type: "mcq",
+    question: "asepsis: ____ asepsis refers to the removal or destruction of disease organisms or infected material.",
+    options: ["Medical", "Surgical", "Chemical", "Physical"],
+    answer: [0],
+    rationale: "Medical asepsis utilizes clean techniques to limit the number, growth, and transmission of pathogenic microorganisms in clinical environments."
+  },
+  {
+    id: 124,
+    type: "mcq",
+    question: "asepsis: ____ asepsis refers to protection against infection before, during, or after surgery by means of sterile technique.",
+    options: ["Clean", "Medical", "Surgical", "Environmental"],
+    answer: [2],
+    rationale: "Surgical asepsis relies on precise sterile techniques designed to keep an operative field entirely free of all microbial life."
+  },
+  {
+    id: 125,
+    type: "mcq",
+    question: "asthma: A respiratory disorder characterized by recurrent attacks of paroxysmal ____, bronchospasm, wheezing, and coughing.",
+    options: ["Apnea", "Dyspnea", "Orthopnea", "Tachypnea"],
+    answer: [1],
+    rationale: "The physiological airway narrowing in an asthma flare produces sudden episodes of labored breathing and shortness of breath (dyspnea)."
+  },
+  {
+    id: 126,
+    type: "mcq",
+    question: "asthma: Characterized by bronchospasm, ____ on expiration, and coughing.",
+    options: ["Stridor", "Crackles", "Wheezing", "Rhonchi"],
+    answer: [2],
+    rationale: "Expiratory wheezing is a classic clinical sign of asthma, caused by turbulent airflow forcing its way through narrow, constricted bronchioles."
+  },
+  {
+    id: 127,
+    type: "mcq",
+    question: "ataxia: Impairment of the ability to coordinate ____ muscle movement.",
+    options: ["Involuntary", "Voluntary", "Cardiac", "Smooth"],
+    answer: [1],
+    rationale: "Ataxia points to a cerebellar pathway defect that disrupts the smooth execution and coordination of intentional, voluntary muscular actions."
+  },
+  {
+    id: 128,
+    type: "mcq",
+    question: "atopic dermatitis: A ____ inflammation occurring in individuals with a genetic predisposition to allergies.",
+    options: ["Mucosal", "Skin", "Vascular", "Dermal"],
+    answer: [1],
+    rationale: "Atopic dermatitis, commonly known as eczema, presents as a chronic, pruritic inflammatory skin disease linked to immune hypersensitivity pathways."
+  },
+  {
+    id: 129,
+    type: "mcq",
+    question: "atopic dermatitis: Rash pattern varies with age but usually occurs on the ____ in infants.",
+    options: ["Trunk", "Face", "Extremities", "Back"],
+    answer: [1],
+    rationale: "In infantile atopic dermatitis, lesions commonly present first on the face and scalp before spreading to extensor surfaces."
+  },
+  {
+    id: 130,
+    type: "mcq",
+    question: "audiometry: Evaluation of hearing using a device called an ____.",
+    options: ["Otoscope", "Audiometer", "Oscilloscope", "Tympanometer"],
+    answer: [1],
+    rationale: "An audiometer is an electroacoustic instrument designed to deliver controlled sound frequencies to quantify a person's specific hearing thresholds."
+  },
+  {
+    id: 131,
+    type: "mcq",
+    question: "audiometry: Pure tone audiometry evaluates the ability to hear frequencies, usually ranging from 125 to ____ Hz.",
+    options: ["4000 Hz", "8000 Hz", "12000 Hz", "16000 Hz"],
+    answer: [1],
+    rationale: "Standard diagnostic audiometry tests human auditory response across the essential speech clarity frequency spectrum up to 8000 Hz."
+  },
+  {
+    id: 132,
+    type: "mcq",
+    question: "auditory hallucinations: ____ experiences occurring in the absence of actual external sensory stimuli.",
+    options: ["Cognitive", "Perceptual", "Delusional", "Affective"],
+    answer: [1],
+    rationale: "Hallucinations represent false sensory perceptions where the individual experiences a vivid internal perception without matching external sensory input."
+  },
+  {
+    id: 133,
+    type: "mcq",
+    question: "auscultatory gap: Absence of ____ sounds between phases I and II while obtaining a blood pressure reading.",
+    options: ["Doppler", "Korotkoff", "Murmur", "Heart"],
+    answer: [1],
+    rationale: "An auscultatory gap describes a temporary silence or disappearance of vascular Korotkoff sounds during blood pressure cuff deflation, occurring between the initial systolic tap and later phases."
+  },
+  {
+    id: 134,
+    type: "mcq",
+    question: "auscultatory gap: Characterized by the absence of sound between phase I and phase II, which features a ____-like sound.",
+    options: ["Tapping", "Swishing", "Blowing", "Thumping"],
+    answer: [1],
+    rationale: "As blood pressure cuff pressure falls into Phase II, the initial tapping sounds briefly transition into soft, swishing murmurs due to changing turbulent flow profiles."
+  },
+  {
+    id: 135,
+    type: "mcq",
+    question: "autograft: The surgical transfer of ____ (commonly skin) from one location of the body to another location in the same individual.",
+    options: ["Organ", "Tissue", "Muscle", "Marrow"],
+    answer: [1],
+    rationale: "An autograft refers to tissue harvested from one site and grafted onto another site within the same individual, eliminating the risk of immunological graft rejection."
+  },
+  {
+    id: 136,
+    type: "mcq",
+    question: "autoimmune disorder: A disorder resulting from an inappropriate immune response directed against the ____.",
+    options: ["Host", "Self", "Pathogen", "Foreigner"],
+    answer: [1],
+    rationale: "Autoimmunity describes a breakdown in self-tolerance, leading the adaptive immune system to target the body's own cells and tissues."
+  },
+  {
+    id: 137,
+    type: "mcq",
+    question: "autoimmune disorder: Antigens normally found in internal cells stimulate the development of ____ that attack the body's own tissues.",
+    options: ["Allergen", "Antibodies", "Antigens", "Cytokines"],
+    answer: [1],
+    rationale: "The humoral arm of an autoimmune response manufactures autoreactive antibodies (autoantibodies) that bind to self-antigens, triggering tissue destruction."
+  },
+  {
+    id: 138,
+    type: "mcq",
+    question: "autoimmunity: A condition in which the ____ system mounts an attack against the individual's own body tissues.",
+    options: ["Endocrine", "Immune", "Nervous", "Lymphatic"],
+    answer: [1],
+    rationale: "Autoimmunity is driven by a malfunction of the immune system, causing it to misidentify host cellular components as foreign threats."
+  },
+  {
+    id: 139,
+    type: "mcq",
+    question: "autonomic dysreflexia: Reaction that may occur in clients with spinal cord injury above ____.",
+    options: ["T2", "T4", "T6", "T10"],
+    answer: [2],
+    rationale: "Autonomic dysreflexia is a life-threatening syndrome that can occur in individuals with a spinal cord injury at or above the T6 level, where intact sympathetic responses below the injury trigger uncoordinated, massive systemic vasoconstriction."
+  },
+  {
+    id: 140,
+    type: "mcq",
+    question: "autonomic dysreflexia: Dysreflexia results in profuse diaphoresis, pounding headache, blurred vision, and dramatically elevated ____ ____.",
+    options: ["Heart rate", "Blood pressure", "Core temperature", "Respiratory rate"],
+    answer: [1],
+    rationale: "Unchecked sympathetic activity below the spinal injury triggers widespread arterial narrowing, causing severe, paroxysmal blood pressure elevations that require rapid intervention."
+  },
+  {
+    id: 141,
+    type: "mcq",
+    question: "autosomal recessive disorder: A ____ disorder involving two expressed abnormal autosomal genes where the affected individual receives one copy from each parent.",
+    options: ["Congenital", "Genetic", "Chromosomal", "Acquired"],
+    answer: [1],
+    rationale: "Autosomal recessive conditions are classic genetic inheritance patterns requiring an individual to inherit mutated copies of a gene from both biological parents."
+  },
+  {
+    id: 142,
+    type: "mcq",
+    question: "avascular necrosis: A disease where there is cell death of ____ components due to interruption of the blood supply.",
+    options: ["Cartilage", "Bone", "Muscle", "Marrow"],
+    answer: [1],
+    rationale: "Avascular necrosis describes cellular ischemia and death within osseous bone tissue following the loss of localized arterial blood supply."
+  },
+  {
+    id: 143,
+    type: "mcq",
+    question: "avascular necrosis: Caused by the sudden or chronic interruption of the ____ supply.",
+    options: ["Nerve", "Blood", "Lymph", "Oxygen"],
+    answer: [1],
+    rationale: "The progressive destruction of bone architecture seen in avascular necrosis is caused directly by an interruption in blood supply."
+  },
+  {
+    id: 144,
+    type: "mcq",
+    question: "AZT: In full ____, also called zidovudine, a drug used to delay development of AIDS.",
+    options: ["Azidothymidine", "Acyclovir", "Azithromycin", "Atazanavir"],
+    answer: [0],
+    rationale: "AZT stands for Azidothymidine, historically the first antiretroviral drug approved to inhibit HIV replication and delay progression to AIDS."
+  },
+  {
+    id: 145,
+    type: "mcq",
+    question: "AZT: AZT belongs to a group of drugs known as ____ reverse transcriptase inhibitors (NRTIs).",
+    options: ["Non-nucleoside", "Nucleoside", "Protease", "Integrase"],
+    answer: [1],
+    rationale: "Zidovudine (AZT) functions as a Nucleoside Reverse Transcriptase Inhibitor (NRTI), acting as a faulty structural building block to halt viral DNA chain synthesis."
+  },
+  {
+    id: 146,
+    type: "mcq",
+    question: "bacterial meningitis: Inflammation of the ____ of the brain and spinal cord caused by bacteria.",
+    options: ["Ventricles", "Meninges", "Neurons", "Glia"],
+    answer: [1],
+    rationale: "Bacterial meningitis is an acute, life-threatening bacterial infection localized to the meninges, the protective membrane layers enveloping the central nervous system."
+  },
+  {
+    id: 147,
+    type: "mcq",
+    question: "basal cell carcinoma: A malignant ____ cancer; it is the most common form of cancer and rarely metastasizes.",
+    options: ["Bone", "Skin", "Blood", "Glandular"],
+    answer: [1],
+    rationale: "Basal cell carcinoma originates in the basal layer of the epidermis, making it the most frequently diagnosed form of human skin cancer."
+  },
+  {
+    id: 148,
+    type: "mcq",
+    question: "Battle's sign: Discoloration of the skin behind the ____ after the fracture of a bone in the lower skull.",
+    options: ["Eye", "Ear", "Neck", "Jaw"],
+    answer: [1],
+    rationale: "Battle's sign presents as ecchymosis over the mastoid process behind the ear, serving as a classic clinical indicator of a basilar skull fracture."
+  },
+  {
+    id: 149,
+    type: "mcq",
+    question: "benign prostate hyperplasia: An increase in the size of the ____ that leads to urethral compression and structural obstruction.",
+    options: ["Bladder", "Prostate", "Testicle", "Kidney"],
+    answer: [1],
+    rationale: "Benign Prostatic Hyperplasia (BPH) is a non-malignant enlargement of the prostate gland that constricts the prostatic urethra, causing lower urinary tract symptoms."
+  },
+  {
+    id: 150,
+    type: "mcq",
+    question: "bilirubin: The yellow breakdown product of normal ____ catabolism.",
+    options: ["Globin", "Heme", "Plasma", "Biliverdin"],
+    answer: [1],
+    rationale: "Bilirubin is generated as an end product during the metabolic breakdown and recycling of the iron-binding heme ring structure found in aging red blood cells."
+  },
+  {
+    id: 151,
+    type: "mcq",
+    question: "bilirubin: ____ is found in hemoglobin, a principal component of red blood cells.",
+    options: ["Iron", "Heme", "Biliverdin", "Porphyrin"],
+    answer: [1],
+    rationale: "Hemoglobin molecules are composed of globin protein chains wrapped around four oxygen-binding, iron-containing heme complexes."
+  },
+  {
+    id: 152,
+    type: "mcq",
+    question: "bilirubin: It is responsible for the ____ color of bruises and the background discoloration in jaundice.",
+    options: ["Red", "Yellow", "Green", "Purple"],
+    answer: [1],
+    rationale: "Elevated levels of free or conjugated bilirubin in the extracellular tissues impart the characteristic yellow pigmentation seen in clinical jaundice."
+  },
+  {
+    id: 153,
+    type: "mcq",
+    question: "biophysical profile: A prenatal ultrasound evaluation of ____ well-being involving a scoring system.",
+    options: ["Maternal", "Fetal", "Placental", "Amniotic"],
+    answer: [1],
+    rationale: "A biophysical profile combines fetal ultrasound parameters with a non-stress test to assess dynamic indicators of fetal health and identify potential in-utero hypoxia."
+  },
+  {
+    id: 154,
+    type: "mcq",
+    question: "biophysical profile: Features a multi-category scoring system termed ____ score.",
+    options: ["Apgar", "Manning's", "Bishop", "Glasgow"],
+    answer: [1],
+    rationale: "The standard biophysical profile scoring system was formally established and named after clinical investigator Manning."
+  },
+  {
+    id: 155,
+    type: "mcq",
+    question: "bipolar disorder: A mood disorder characterized by major ____ and full manic episodes.",
+    options: ["Anxiety", "Depression", "Psychosis", "Paranoia"],
+    answer: [1],
+    rationale: "Bipolar I disorder is defined by cyclical shifts between major depressive episodes and periods of abnormally elevated mood (mania)."
+  },
+  {
+    id: 156,
+    type: "mcq",
+    question: "bipolar disorder: Characterized by alternating cycles of major depressive and full ____ episodes.",
+    options: ["Hypomanic", "Manic", "Catatonic", "Dysthymic"],
+    answer: [1],
+    rationale: "The hallmark feature of traditional Bipolar I clinical presentations is the distinct emergence of fully developed manic episodes."
+  },
+  {
+    id: 157,
+    type: "mcq",
+    question: "body surface area: Means for calculating pediatric drug dosage using a specialized chart layout called a ____.",
+    options: ["Histogram", "Nomogram", "Metric scale", "Growth grid"],
+    answer: [1],
+    rationale: "A West nomogram is a specialized multi-variable chart axis used to estimate an individual's body surface area from height and weight coordinates for precise medication dosing."
+  },
+  {
+    id: 158,
+    type: "mcq",
+    question: "borderline personality disorder: A disorder characterized by ____ relationships, self-damaging impulsiveness, and chronic feelings of emptiness.",
+    options: ["Dependent", "Unstable", "Avoidant", "Rigid"],
+    answer: [1],
+    rationale: "Borderline personality disorder is characterized by a pattern of severe instability in interpersonal relationships, fluctuating between intense idealization and devaluation."
+  },
+  {
+    id: 159,
+    type: "mcq",
+    question: "bradyarrhythmias: Irregularity in ____ rate or rhythm characterized by slowness.",
+    options: ["Respiratory", "Heart", "Metabolic", "Pulse"],
+    answer: [1],
+    rationale: "The prefix 'brady-' paired with '-arrhythmia' identifies an abnormally slow electrical conduction configuration within the heart."
+  },
+  {
+    id: 160,
+    type: "mcq",
+    question: "bradycardia: A ____ but steady heartbeat at a rate of less than 60 beats per minute.",
+    options: ["Rapid", "Slow", "Irregular", "Bounding"],
+    answer: [1],
+    rationale: "Bradycardia is defined as a slow, regular heart rate that falls below standard physiological resting parameters."
+  },
+  {
+    id: 161,
+    type: "mcq",
+    question: "bradycardia: A slow but steady heartbeat at a rate of less than ____ beats per minute.",
+    options: ["50", "60", "70", "80"],
+    answer: [1],
+    rationale: "The standard clinical threshold for declaring adult bradycardia is a resting heart rate drops below 60 beats per minute."
+  },
+  {
+    id: 162,
+    type: "mcq",
+    question: "____ ____ contraction: Light, painless, irregular uterine tightening during pregnancy, arising during the first trimester.",
+    options: ["Braxton Hicks", "True labor", "Montgomery", "Hegar sign"],
+    answer: [0],
+    rationale: "Braxton Hicks contractions are sporadic, physiological uterine contractions that occur throughout pregnancy, serving as practice tightening rather than active cervical dilating labor."
+  },
+  {
+    id: 163,
+    type: "mcq",
+    question: "Braxton Hicks contraction: Also called false ____.",
+    options: ["Pregnancy", "Labor", "Ovulation", "Contraction"],
+    answer: [1],
+    rationale: "Because Braxton Hicks contractions do not cause cervical effacement or progressive dilation, they are commonly termed false labor."
+  },
+  {
+    id: 164,
+    type: "mcq",
+    question: "breast engorgement: Distention of the milk ____ and surrounding tissue as breast milk is formed.",
+    options: ["Glands", "Ducts", "Lobules", "Sinuses"],
+    answer: [1],
+    rationale: "Postpartum breast engorgement is caused by vascular congestion and accumulation of milk within the mammary duct network during the onset of lactation."
+  },
+  {
+    id: 165,
+    type: "mcq",
+    question: "bronchiectasis: It is classified as an ____ lung disease, along with emphysema, bronchitis, and asthma.",
+    options: ["Restrictive", "Obstructive", "Infectious", "Interstitial"],
+    answer: [1],
+    rationale: "Bronchiectasis involves permanent airway dilation that impairs mucus clearance, leading to airflow limitation and its classification as an obstructive lung disease."
+  },
+  {
+    id: 166,
+    type: "mcq",
+    question: "bronchiolitis: A lung inflammation mainly in infants, also called ____.",
+    options: ["Lobar pneumonia", "Bronchopneumonia", "Pleurisy", "Atelectasis"],
+    answer: [1],
+    rationale: "Bronchiolitis involves widespread acute inflammation of the smaller airways, presenting with clinical patterns that overlap with acute bronchopneumonia."
+  },
+  {
+    id: 167,
+    type: "mcq",
+    question: "bronchoscopy: Visual examination of the ____ tree using a specialized flexible or rigid scope.",
+    options: ["Gastrointestinal", "Tracheobronchial", "Nasopharyngeal", "Esophageal"],
+    answer: [1],
+    rationale: "A bronchoscopy allows direct endoscopic visualization of the larynx, trachea, and branching bronchial branches for diagnostic or therapeutic access."
+  },
+  {
+    id: 168,
+    type: "mcq",
+    question: "____ catheter: Single-lumen silicone central venous catheter used for long-term venous access.",
+    options: ["Hickman", "Broviac", "Groshong", "Picc"],
+    answer: [1],
+    rationale: "The Broviac catheter is a tunneled central venous access device similar to a Hickman line but features a smaller lumen size, making it well-suited for pediatric patients."
+  },
+  {
+    id: 169,
+    type: "mcq",
+    question: "____ sign: Flexion of the hips and knees in response to passive flexion of the neck.",
+    options: ["Kernig's", "Brudzinski's", "Babinski's", "Chvostek's"],
+    answer: [1],
+    rationale: "Brudzinski's sign is a classic clinical marker of meningeal irritation, where passive neck flexion triggers involuntary hip and knee flexion due to meningeal stretching."
+  },
+  {
+    id: 170,
+    type: "mcq",
+    question: "Brudzinski's sign: ____ of the hips and knees in response to passive flexion of the neck.",
+    options: ["Extension", "Flexion", "Abduction", "Rotation"],
+    answer: [1],
+    rationale: "The physical presentation evaluated in a positive Brudzinski's test is the involuntary flexion drawing upward of the lower limbs."
+  },
+  {
+    id: 171,
+    type: "mcq",
+    question: "bruit: An abnormal vascular ____ sound heard on auscultation as a result of turbulent blood flow.",
+    options: ["Clicking", "Swishing", "Rubbing", "Galloping"],
+    answer: [1],
+    rationale: "A vascular bruit creates a characteristic blowing or swishing sound when arterial narrowing or irregularities trigger turbulent blood flow."
+  },
+  {
+    id: 172,
+    type: "mcq",
+    question: "buccal: Of or relating to the inside of the ____.",
+    options: ["Lip", "Cheek", "Tongue", "Palate"],
+    answer: [1],
+    rationale: "The term 'buccal' originates from anatomical terminology referring directly to the internal mucosal surface of the cheek."
+  },
+  {
+    id: 173,
+    type: "mcq",
+    question: "Buerger’s disease: A progressive inflammation and thrombosis strongly associated with use of ____ products.",
+    options: ["Alcohol", "Tobacco", "Narcotic", "Steroid"],
+    answer: [1],
+    rationale: "Buerger's disease (thromboangiitis obliterans) is a non-atherosclerotic inflammatory vasculitis closely linked to the consumption and exposure of tobacco products."
+  },
+  {
+    id: 174,
+    type: "mcq",
+    question: "Buerger’s disease: Primarily caused or exacerbated by tobacco ____.",
+    options: ["Chewing", "Smoking", "Vaping", "Patching"],
+    answer: [1],
+    rationale: "The onset and progression of Buerger's disease are driven by tobacco smoke inhalation, and strict smoking cessation is the primary intervention to prevent tissue necrosis."
+  },
+  {
+    id: 175,
+    type: "mcq",
+    question: "bulimia: An ____ disorder characterized by episodes of binge eating followed by self-induced purging.",
+    options: ["Anxiety", "Eating", "Impulse", "Personality"],
+    answer: [1],
+    rationale: "Bulimia nervosa is an eating disorder characterized by recurrent episodes of out-of-control binge eating followed by compensatory behaviors like self-induced vomiting."
+  },
+  {
+    id: 176,
+    type: "mcq",
+    question: "bulimia: Characterized by episodes of ____ eating that may end in self-induced vomiting.",
+    options: ["Restrictive", "Binge", "Selective", "Absentee"],
+    answer: [1],
+    rationale: "The hallmark cycle of bulimia hinges upon episodes of excessive, high-calorie binge eating before triggering compensatory clearing behaviors."
+  },
+  {
+    id: 177,
+    type: "mcq",
+    question: "CAD: Coronary ____ ____ (CAD) is the most common type of heart disease.",
+    options: ["Artery Disease", "Aortic Defect", "Atrial Dysfunction", "Cardiovascular Disorder"],
+    answer: [0],
+    rationale: "The medical acronym CAD stands for Coronary Artery Disease, which describes pathology impacting the arterial blood supply delivering oxygen directly to the myocardium."
+  },
+  {
+    id: 178,
+    type: "mcq",
+    question: "CAD: It happens when the arteries that supply blood to heart muscle become hardened and ____.",
+    options: ["Dilated", "Narrowed", "Lengthened", "Ruptured"],
+    answer: [1],
+    rationale: "Atherosclerosis causes the progressive narrowing of vessel lumens, which restricts downstream arterial blood flow."
+  },
+  {
+    id: 179,
+    type: "mcq",
+    question: "CAD: The building up of cholesterol plaque on inner arterial walls is called ____.",
+    options: ["Arteriosclerosis", "Atherosclerosis", "Thromboemphlebitis", "Arteritis"],
+    answer: [1],
+    rationale: "Atherosclerosis is the specific fibrofatty thickening and plaque deposition occurring within the endothelial intima layer of large and medium-sized arteries."
+  },
+  {
+    id: 180,
+    type: "mcq",
+    question: "candidiasis: A fungal infection of any of the Candida species, of which ____ ____ is the most common.",
+    options: ["Candida tropicalis", "Candida albicans", "Candida glabrata", "Candida krusei"],
+    answer: [1],
+    rationale: "Candida albicans is the primary opportunistic diploid fungus responsible for most human candidiasis infections (such as thrush and vaginitis)."
+  },
+  {
+    id: 181,
+    type: "mcq",
+    question: "candidiasis: Commonly referred to as a ____ infection.",
+    options: ["Bacterial", "Yeast", "Viral", "Protozoan"],
+    answer: [1],
+    rationale: "Candida species are unicellular fungi, meaning that candidiasis infections are commonly referred to as yeast infections."
+  },
+  {
+    id: 182,
+    type: "mcq",
+    question: "____ ____: A diagnostic procedure in which a catheter is inserted into a large peripheral vessel and threaded to the heart.",
+    options: ["Angioplasty stenting", "Cardiac catheterization", "Echocardiogram study", "Venous mapping"],
+    answer: [1],
+    rationale: "Cardiac catheterization is an invasive diagnostic procedure where flexible catheters are guided through the arterial or venous system into the cardiac chambers and coronary arteries."
+  },
+  {
+    id: 183,
+    type: "mcq",
+    question: "cardiac output: The volume of blood ejected by the heart per minute, normally ranging from ____ to eight L.",
+    options: ["Two", "Four", "Six", "Five"],
+    answer: [1],
+    rationale: "In an average healthy adult resting state, the baseline cardiac output ranges from approximately 4 to 8 liters of blood pumped per minute."
+  },
+  {
+    id: 184,
+    type: "mcq",
+    question: "cardiac output: Normally ranges from four to ____ L per minute.",
+    options: ["Six", "Eight", "Ten", "Twelve"],
+    answer: [1],
+    rationale: "The upper limit of a normal, resting adult cardiac output range is typically defined at 8 liters per minute."
+  },
+  {
+    id: 185,
+    type: "mcq",
+    question: "cardiac tamponade: Also known as ____ tamponade, an acute effusion where fluid limits heart pumping capacity.",
+    options: ["Myocardial", "Pericardial", "Endocardial", "Pleural"],
+    answer: [1],
+    rationale: "Because the fluid collecting during a tamponade event resides specifically inside the external fibroserous pericardial sac, it is referred to as pericardial tamponade."
+  },
+  {
+    id: 186,
+    type: "mcq",
+    question: "cardiac tamponade: Fluid accumulates abnormally inside the ____ sac.",
+    options: ["Pleural", "Pericardium", "Peritoneum", "Mediastinum"],
+    answer: [1],
+    rationale: "Fluid accumulation within the tight, non-compliant pericardium raises intrapericardial pressure, which compresses the heart chambers and prevents normal diastolic filling."
+  },
+  {
+    id: 187,
+    type: "mcq",
+    question: "____ shock: A condition of low cardiac output that results from heart pump failure.",
+    options: ["Hypovolemic", "Cardiogenic", "Anaphylactic", "Neurogenic"],
+    answer: [1],
+    rationale: "Cardiogenic shock occurs when severe impairment of myocardial contractility results in primary pump failure and life-threatening systemic hypoperfusion."
+  },
+  {
+    id: 188,
+    type: "mcq",
+    question: "cardiomyopathy: Primary noninflammatory disease of the ____.",
+    options: ["Pericardium", "Myocardium", "Endocadium", "Epicardium"],
+    answer: [1],
+    rationale: "Cardiomyopathies are a diverse group of diseases primarily affecting the structural integrity and electrical performance of the heart muscle (myocardium)."
+  },
+  {
+    id: 189,
+    type: "mcq",
+    question: "cardioversion: ____ electrical cardioversion uses a therapeutic dose of electric current delivered at a specific moment in the cardiac cycle.",
+    options: ["Unsynchronized", "Synchronized", "Automated", "High-frequency"],
+    answer: [1],
+    rationale: "Synchronized cardioversion times the electrical shock to line up with the R-wave of the QRS complex, avoiding delivery during the vulnerable T-wave repolarization window to prevent ventricular fibrillation."
+  },
+  {
+    id: 190,
+    type: "mcq",
+    question: "carpal tunnel syndrome: Compression neuropathy caused by tissue pressure over the ____ nerve running through the wrist tunnel.",
+    options: ["Ulnar", "Median", "Radial", "Axillary"],
+    answer: [1],
+    rationale: "Carpal tunnel syndrome is caused by increased pressure within the carpal canal that compresses the median nerve, leading to paresthesia and pain in its sensory distribution."
+  },
+  {
+    id: 191,
+    type: "mcq",
+    question: "cataracts: A cloudiness or opacity in the normally transparent crystalline ____ of the eye.",
+    options: ["Cornea", "Lens", "Sclera", "Vitreous"],
+    answer: [1],
+    rationale: "A cataract is a progressive metabolic breakdown that alters proteins within the lens structure, causing opacification that blocks normal light transmission to the retina."
+  },
+  {
+    id: 192,
+    type: "mcq",
+    question: "catatonic: A stuporous or unresponsive psychiatric state commonly characterized by an inability to ____ or talk.",
+    options: ["See", "Move", "Breathe", "Swallow"],
+    answer: [1],
+    rationale: "Catatonic stupor presents with marked psychomotor slowing, often resulting in complete immobility, mutism, and resistance to environmental positioning."
+  },
+  {
+    id: 193,
+    type: "mcq",
+    question: "catecholamine: Any of a group of chemical compounds having a ____ action mimicking sympathetic nervous inputs.",
+    options: ["Parasympatholytic", "Sympathomimetic", "Parasympathomimetic", "Adrenergic blocker"],
+    answer: [1],
+    rationale: "Endogenous catecholamines (like epinephrine and norepinephrine) act as primary chemical triggers for fight-or-flight signaling, making their actions sympathomimetic."
+  },
+  {
+    id: 194,
+    type: "mcq",
+    question: "celiac disease: A chronic disease in which an individual can’t tolerate foods containing ____ or wheat protein.",
+    options: ["Lactose", "Gluten", "Glucose", "Fructose"],
+    answer: [1],
+    rationale: "Celiac disease is an autoimmune enteropathy triggered by consuming gluten, a protein composite found in wheat, barley, and rye, which drives immune-mediated destruction of the small intestinal villi."
+  },
+  {
+    id: 195,
+    type: "mcq",
+    question: "cellulitis: An infection of deep ____ tissue and sometimes muscle characterized by local heat, pain, redness, and swelling.",
+    options: ["Epicutaneous", "Subcutaneous", "Intradermal", "Fascial"],
+    answer: [1],
+    rationale: "Cellulitis is an acute bacterial infection that spreads rapidly through the deep subcutaneous and dermal layers of the skin."
+  },
+  {
+    id: 196,
+    type: "mcq",
+    question: "cerebral aneurysm: A saclike dilation of the wall of a ____ artery, typically resulting from structural weakness.",
+    options: ["Carotid", "Cerebral", "Vertebral", "Basilar"],
+    answer: [1],
+    rationale: "A cerebral aneurysm specifically identifies an abnormal vascular dilation located within the arterial structures supplying the brain."
+  },
+  {
+    id: 197,
+    type: "mcq",
+    question: "cerebral aneurysm: A cerebral, or berry, aneurysm usually occurs in the circle of ____.",
+    options: ["Willis", "Monro", "Sylvius", "Wernicke"],
+    answer: [0],
+    rationale: "Berry aneurysms develop most frequently at structural branching junctions within the Circle of Willis, an arterial ring structure at the base of the brain."
+  },
+  {
+    id: 198,
+    type: "mcq",
+    question: "cerebral contusion: A bruising of the ____ tissue as a result of a severe blow to the head.",
+    options: ["Meningeal", "Brain", "Cranial", "Scalp"],
+    answer: [1],
+    rationale: "A cerebral contusion describes localized structural bruising and parenchymal hemorrhage within the brain tissue itself, often following a traumatic impact."
+  },
+  {
+    id: 199,
+    type: "mcq",
+    question: "cerebral palsy: A permanent disorder of ____ function resulting from nonprogressive brain damage or a brain lesion.",
+    options: ["Cognitive", "Motor", "Sensory", "Behavioral"],
+    answer: [1],
+    rationale: "Cerebral palsy encompasses a group of permanent, non-progressive neurodevelopmental disorders that impair movement, posture, and motor coordination."
+  },
+  {
+    id: 200,
+    type: "mcq",
+    question: "chelation therapy: Administration of agents that bind to ____ to aid in their removal from the body.",
+    options: ["Toxins", "Metals", "Lipids", "Crystals"],
+    answer: [1],
+    rationale: "Chelating agents carry chemical configurations that bind to heavy metals, forming soluble complexes that can be cleared and excreted by the kidneys."
+  },
+  {
+    id: 201,
+    type: "mcq",
+    question: "chelation therapy: Administered to aid in the removal of excess metals, such as ____ or iron in the body.",
+    options: ["Calcium", "Lead", "Mercury", "Copper"],
+    answer: [1],
+    rationale: "Chelation therapy is a primary clinical intervention used to treat severe heavy metal poisoning, such as toxic lead accumulation."
+  },
+  {
+    id: 202,
+    type: "mcq",
+    question: "chemotherapy: Treatment of a disease using chemicals that exert a toxic effect on the pathogen or abnormal ____ growth.",
+    options: ["Tissue", "Cell", "Organ", "Systemic"],
+    answer: [1],
+    rationale: "Chemotherapeutic agents target active mechanisms of cell division to halt or kill rapidly proliferating malignant cell lines."
   }
 ];
