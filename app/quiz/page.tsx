@@ -78,10 +78,10 @@ export default function QuizPage() {
   const [dailyQuestions, setDailyQuestions] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState<number | null>(null); // ← null means exam not started
+  const [timeLeft, setTimeLeft] = useState<number | null>(null);
   const [isPaused, setIsPaused] = useState(false);
   const [hasSavedAttempt, setHasSavedAttempt] = useState(false);
-  const [isExamActive, setIsExamActive] = useState(false); // ← new flag
+  const [isExamActive, setIsExamActive] = useState(false);
 
   const [theme, setTheme] = useState<Theme>("system");
 
@@ -135,7 +135,12 @@ export default function QuizPage() {
   const generateExam = () => {
     if (!totalQuestions || totalQuestions < 1 || !examTime) return;
 
-    const shuffled = [...questions].sort(() => 0.5 - Math.random());
+    // Fisher-Yates shuffle — truly uniform distribution
+    const shuffled = [...questions];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
     const selected = shuffled.slice(0, totalQuestions);
 
     setDailyQuestions(selected);
@@ -144,8 +149,8 @@ export default function QuizPage() {
     setIsPaused(false);
     setStartTime(Date.now());
     setHasSavedAttempt(false);
-    setIsExamActive(true); // ← mark exam as active before setting time
-    setTimeLeft(examTime); // ← set time last so timeLeft === 0 never fires prematurely
+    setIsExamActive(true);
+    setTimeLeft(examTime);
 
     localStorage.setItem("dailyQuestions", JSON.stringify(selected));
     localStorage.setItem("progress", "0");
@@ -228,7 +233,6 @@ export default function QuizPage() {
 
   // ================= FINISH =================
   useEffect(() => {
-    // Only trigger finish logic if exam is active and not already saved
     if (!isExamActive || hasSavedAttempt || !startTime) return;
 
     const allAnswered = currentIndex >= dailyQuestions.length && dailyQuestions.length > 0;
